@@ -90,7 +90,7 @@ const navbar = () => {
 
         </FullNav>
         </>
-    )
+    );
 }
 
 export default navbar;
