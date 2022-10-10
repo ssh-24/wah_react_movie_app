@@ -2,6 +2,8 @@
 import {useEffect, useState} from "react"
 
 import Header from './component/header.js'
+import Footer from './component/footer.js'
+import Button from './component/button.js'
 import './App.css';
 
  
@@ -9,7 +11,9 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <Header></Header>
+      <Header/>
+      <Button/>
+      <Footer/>
     </div>
   );
 }

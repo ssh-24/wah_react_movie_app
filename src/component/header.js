@@ -122,7 +122,7 @@ const header = () => {
                 
 
             </HeaderContent>
-            <Navbar></Navbar>
+            <Navbar/>
         
         </Header>
         </>
