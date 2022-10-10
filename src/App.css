@@ -1,7 +1,73 @@
+
+html{
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  word-break: break-all;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
 
+
+.mt_50{
+  margin-top: 50px;
+}
+.mt_100{
+  margin-top: 100px;
+}
+
+.mb_50{
+  margin-bottom: 50px;
+}
+.mb_100{
+  margin-bottom: 100px;
+}
+.mb_200{
+  margin-bottom: 200px;
+}
+
+.ml_3{
+  margin-left :3px;
+}
+
+.mr_3{
+  margin-right:3px;
+}
+
+.mr_500{
+  margin-right: 500px;
+}
+
+
+.white{
+  color:white;
+}
+.black{
+  color:black;
+}
+
+
+.width_40{
+  width: 36px;
+}
+.height_40{
+  height: 36px;
+}
+
+
+
+/* --------------------------------------------- */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

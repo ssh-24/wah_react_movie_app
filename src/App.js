@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+/* eslint-disable */
+import {useEffect, useState} from "react"
+
+import Header from './component/header.js'
+import Footer from './component/footer.js'
+import Button from './component/button.js'
 import './App.css';
 
- const App = () => {
+ 
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Button/>
+      <Footer/>
     </div>
   );
 }
