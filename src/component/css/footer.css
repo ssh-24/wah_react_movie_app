@@ -1,0 +1,35 @@
+.footer .policy_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 23px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.footer .policy_list li a {
+    font-weight: 500;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.462em;
+}
+
+.footer .company_info_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 23px 0;
+}
+.footer .familysite_wrap {
+    position: relative;
+}
+.company_info {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.667em;
+}
+.company_info p{
+    margin: 0px;
+}
